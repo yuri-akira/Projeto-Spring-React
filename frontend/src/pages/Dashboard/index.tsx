@@ -1,6 +1,6 @@
 import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
-import DonatChart from "components/DonatChart";
+import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
@@ -19,7 +19,7 @@ const Dashboard = () => {
   
             <div className="col-sm-6">
               <h5 className="text-center text-secundary">Taxa de sucesso (%)</h5>
-              <DonatChart />
+              <DonutChart />
             </div>
           </div>
   

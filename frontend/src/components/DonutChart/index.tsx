@@ -10,7 +10,7 @@ type ChartData = {
     series: number[];
 }
 
-const DonatChart = () => {
+const DonutChart = () => {
     const [chartData, setChartData] = useState<ChartData>({ labels: [], series: [] })
 
     useEffect(() => {
@@ -40,4 +40,4 @@ const DonatChart = () => {
     )
 }
 
-export default DonatChart;
+export default DonutChart;
